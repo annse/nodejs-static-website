@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-static-website",
+  "version": "1.0.0",
+  "description": "A very basic example of Node.js website (Express+EJS+Bootstrap)",
+  "main": "server.js",
+  "scripts": {
+    "dev": "start server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annse/nodejs-static-website.git"
+  },
+  "author": "hanna s.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/annse/nodejs-static-website/issues"
+  },
+  "homepage": "https://github.com/annse/nodejs-static-website#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  }
+}
