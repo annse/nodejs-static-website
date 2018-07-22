@@ -4,7 +4,6 @@
   "description": "A very basic example of Node.js website (Express+EJS+Bootstrap)",
   "main": "server.js",
   "scripts": {
-    "dev": "start server.js"
   },
   "repository": {
     "type": "git",
