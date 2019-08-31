@@ -23,5 +23,5 @@ app.use('/', router);
 
 // start the server
 app.listen(port, () =>{
-    console.log('app started');
+    console.log(`${port} is the magic port`);
 });
