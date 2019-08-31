@@ -3,15 +3,15 @@ const router = express.Router();
 
 
 router.get('/', (req, res) => {
-    res.render('home');
+    res.render('pages/home');
 });
 
 router.get('/about', (req, res) => {
-    res.render('about');
+    res.render('pages/about');
 });
 
 router.get('/contact', (req, res) => {
-    res.render('contact');
+    res.render('pages/contact');
 });
 
 router.post('/contact', (req, res) => {
