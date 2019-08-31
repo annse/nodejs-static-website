@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "A very basic example of Node.js website (Express+EJS+Bootstrap)",
   "main": "server.js",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/annse/nodejs-static-website.git"

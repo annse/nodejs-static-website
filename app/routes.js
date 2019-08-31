@@ -1,19 +1,20 @@
 const express = require('express');
 const router = express.Router();
-module.exports = router;
+
 
 router.get('/', (req, res) => {
-    res.render();
+    res.render('home');
 });
 
 router.get('/about', (req, res) => {
-    res.render();
+    res.render('about');
 });
 
 router.get('/contact', (req, res) => {
-    res.render();
+    res.render('contact');
 });
 
 router.post('/contact', (req, res) => {
     
 });
+module.exports = router;
