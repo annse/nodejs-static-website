@@ -3,8 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">    
+    <title><%= title %></title>
+    <!-- CSS (load bootstrap from a CDN) -->
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<style>
+    body { padding-top:50px; }
+</style>
 </head>
-<body>
-<%- include('nav'); -%>
+<body class="container">
+        <header>
+            <%- include('nav'); -%>
+        </header>

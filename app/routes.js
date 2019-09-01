@@ -1,17 +1,20 @@
 const express = require('express');
 const router = express.Router();
-
+let title = '';
 
 router.get('/', (req, res) => {
-    res.render('pages/home');
+    title = 'Home';
+    res.render('pages/home', {title: title});
 });
 
 router.get('/about', (req, res) => {
-    res.render('pages/about');
+    title = 'About';
+    res.render('pages/about', {title: title});
 });
 
 router.get('/contact', (req, res) => {
-    res.render('pages/contact');
+    title = 'Contact us'
+    res.render('pages/contact', {title: title});
 });
 
 router.post('/contact', (req, res) => {
