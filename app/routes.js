@@ -13,7 +13,7 @@ router.get('/about', (req, res) => {
 });
 
 router.get('/contact', (req, res) => {
-    title = 'Contact us'
+    title = 'Contact us';
     res.render('pages/contact', {title: title});
 });
 
